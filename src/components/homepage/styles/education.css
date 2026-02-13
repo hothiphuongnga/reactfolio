@@ -1,61 +1,62 @@
 @import "../../../data/styles.css";
 
-.education-body {
-	flex-basis: 900px;
-	padding-top: 30px;
-	margin-left: -30px;
-
+.homepage-education {
+	width: 90%;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	margin-bottom: 10px;
 }
 
-.education-item {
-	padding-bottom: 5px;
+.homepage-education:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
 }
 
-.education-school {
-	font-family: var(--secondary-font);
+.homepage-education-content {
+	padding: 30px;
+}
+
+.homepage-education-school {
+	opacity: 1;
+	color: var(--tertiary-color);
+	font-size: 12px;
+	margin-bottom: 1em;
+}
+
+.homepage-education-degree {
+	opacity: 1;
 	color: var(--primary-color);
-	font-size: 14px;
+	font-size: 16px;
+	margin-bottom: 1em;
 	font-weight: 700;
-	margin-bottom: 5px;
 }
 
-.education-degree {
-	color: var(--link-color);
-	font-size: 13px;
-	font-weight: 600;
-	margin-bottom: 5px;
-}
-
-.education-field {
+.homepage-education-field {
+	opacity: 1;
 	color: var(--secondary-color);
 	font-size: 12px;
-	margin-bottom: 8px;
+	margin-bottom: 0.5em;
 }
 
-.education-description {
+.homepage-education-description {
+	opacity: 1;
 	color: var(--secondary-color);
 	font-size: 12px;
-	margin-bottom: 8px;
 	line-height: 1.5;
+	margin-bottom: 1em;
 }
 
-.education-duration {
-	color: var(--secondary-color);
+.homepage-education-duration {
+	opacity: 1;
+	color: var(--tertiary-color);
 	font-size: 11px;
 	font-weight: 600;
 }
 
 @media (max-width: 600px) {
-	.education-item {
-		padding: 12px;
-		padding-left: 15px;
-	}
-
-	.education-school {
-		font-size: 13px;
-	}
-
-	.education-degree {
-		font-size: 12px;
+	.homepage-education {
+		width: 100%;
 	}
 }
