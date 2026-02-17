@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2026 ngaho.dev. All Rights Reserved.
+						© 2026 pnga62782@gmail.com. All Rights Reserved.
 					</div>
 				</div>
 			</div>
