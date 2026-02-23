@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
@@ -6,11 +7,13 @@ import Card from "../common/card";
 import "./styles/works.css";
 
 const Works = () => {
+	const { t } = useTranslation();
+	
 	return (
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work"
+				title={t('homepage.work')}
 				body={
 					<div className="works-body">
 						<div className="work">
@@ -21,9 +24,9 @@ const Works = () => {
 							/>
 							<div className="work-title">Cybersoft Academy</div>
 							<div className="work-subtitle">
-								Software Engineer
+								{t('homepage.workTitle')}
 							</div>
-							<div className="work-duration">2022 - Present</div>
+							<div className="work-duration">{t('homepage.workDuration')}</div>
 						</div>
 
 						

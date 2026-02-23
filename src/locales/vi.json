@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "projects": "Dự án",
+    "articles": "Bài viết",
+    "contact": "Liên hệ"
+  },
+  "homepage": {
+    "title": "Kỹ sư phần mềm .NET • Giảng viên C# • Xây dựng nền tảng LMS & CRM SaaS",
+    "description": "Tôi là Kỹ sư Phần mềm chuyên về .NET và C# Web API với React và Next.js. Tôi xây dựng các nền tảng LMS và CRM SaaS, hệ thống quản lý trung tâm đào tạo (tuyển sinh, học phí, tài liệu học tập), và kiến trúc backend có khả năng mở rộng. Tôi đam mê Clean Architecture, Domain-Driven Design, Microservices và cung cấp các giải pháp thực tế cho giáo dục và kinh doanh.",
+    "currentProjects": "Dự án hiện tại",
+    "allProjects": "Tất cả dự án",
+    "reachOut": "Nếu bạn nghĩ tôi phù hợp với team hoặc dự án của bạn, đừng ngần ngại liên hệ.",
+    "email": "Email",
+    "work": "Công việc",
+    "workTitle": "Kỹ sư Phần mềm",
+    "workDuration": "2022 - Hiện tại"
+  },
+  "about": {
+    "title": "Tôi là Hồ Thị Phương Nga — Kỹ sư Phần mềm & Giảng viên lập trình C#.",
+    "description": "Tôi có kinh nghiệm thực tế xây dựng hệ thống LMS cho các trung tâm đào tạo, bao gồm tuyển sinh học viên, quản lý học phí, tài liệu học tập và nền tảng CRM nội bộ. Tôi cũng đã làm việc với các sản phẩm CRM SaaS, triển khai server và CI/CD pipelines. Trọng tâm kỹ thuật của tôi bao gồm .NET, C#, React, Next.js, Clean Architecture, DDD, Microservices, Redis, Kafka và CQRS. Tôi thích chia sẻ kiến thức, hướng dẫn học viên và liên tục cải thiện thiết kế hệ thống cũng như chất lượng phần mềm.",
+    "socialMediaTitle": "Kết nối với tôi trên mạng xã hội"
+  },
+  "skills": {
+    "technicalTitle": "Kỹ năng kỹ thuật",
+    "practicesTitle": "Phương pháp luận Kỹ thuật Phần mềm"
+  },
+  "socials": {
+    "followGitHub": "Theo dõi trên GitHub",
+    "followLinkedIn": "Theo dõi trên LinkedIn",
+    "followInstagram": "Theo dõi trên Instagram"
+  },
+  "projects": {
+    "title": "Các Dự án Tôi Đã Xây dựng — LMS, CRM và Giải pháp SaaS có khả năng Mở rộng",
+    "subtitle": "Danh mục toàn diện các nền tảng LMS/CRM, hệ thống quản lý trung tâm đào tạo và kiến trúc backend có khả năng mở rộng.",
+    "viewProject": "Xem dự án",
+    "position": "Vị trí"
+  },
+  "contact": {
+    "title": "Hãy Cùng Xây dựng Điều Tuyệt vời.",
+    "subtitle": "Tôi luôn sẵn sàng cho các cơ hội mới, hợp tác và các dự án thú vị. Dù bạn có câu hỏi hay chỉ muốn chào hỏi, hãy thoải mái liên hệ!",
+    "email": "Email",
+    "lookingForward": "Cảm ơn bạn đã quan tâm! Tôi mong được hợp tác cùng bạn.",
+    "emailMe": "email trực tiếp cho tôi tại",
+    "responseTime": "Tôi cố gắng trả lời tất cả tin nhắn trong vòng 24 giờ, mặc dù có thể mất nhiều thời gian hơn trong thời gian bận rộn.",
+    "socialConnect": "nếu bạn muốn kết nối trên mạng xã hội, bạn có thể tìm thấy tôi trên"
+  },
+  "articles": {
+    "title": "Chia sẻ kinh nghiệm kỹ thuật thực tế và kiến trúc backend hiện đại.",
+    "description": "Bộ sưu tập theo thời gian về suy nghĩ của tôi về phát triển .NET, thiết kế hệ thống, LMS/CRM SaaS, Clean Architecture, CQRS, Redis, Kafka và bài học từ các dự án thực tế.",
+    "readArticle": "Đọc bài viết",
+    "backToArticles": "Quay lại Bài viết"
+  },
+  "footer": {
+    "copyright": "Bảo lưu mọi quyền."
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "message": "Trang bạn đang tìm không tồn tại.",
+    "goHome": "Về Trang chủ"
+  },
+  "user": {
+    "name": "Hồ Thị Phương Nga",
+    "email": "pnga62782@gmail.com",
+    "education": {
+      "title": "Học vấn",
+      "items": [
+        {
+          "school": "FPT University",
+          "degree": "Kỹ sư Thực hành",
+          "field": ".NET & ReactJS",
+          "description": "Đào tạo chuyên sâu về phát triển .NET, C# Web API, ReactJS và các công nghệ web hiện đại.",
+          "startYear": 2021,
+          "endYear": 2023
+        },
+        {
+          "school": "Đại học Công nghệ Thông tin - Đại học Quốc gia TP.HCM",
+          "degree": "Cử nhân",
+          "field": "Công nghệ Thông tin",
+          "description": "Các nguyên lý cơ bản về khoa học máy tính và thực hành kỹ thuật phần mềm.",
+          "startYear": 2025,
+          "endYear": 2026
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "Bizzego - Nền tảng CRM SaaS",
+        "description": "Nền tảng CRM SaaS để quản lý khách hàng, quy trình bán hàng và luồng công việc nhóm trong hệ thống tập trung, được xây dựng với kiến trúc có khả năng mở rộng để hỗ trợ doanh nghiệp phát triển.",
+        "linkText": "Xem dự án",
+        "position": "Trưởng nhóm Backend & Full Stack Developer"
+      },
+      {
+        "title": "CyberSoft - Nền tảng Quản lý Giáo dục (LMS + CRM)",
+        "description": "Nền tảng LMS và CRM toàn diện được xây dựng cho các trung tâm đào tạo, bao gồm tuyển sinh, thanh toán, hoạt động bán hàng, nội dung học tập, đánh giá, điểm danh, chứng chỉ và quản lý giảng viên. Được thiết kế để tối ưu hóa toàn bộ hành trình từ thu hút khách hàng tiềm năng đến cung cấp học tập.",
+        "linkText": "Xem dự án",
+        "position": "Full Stack Developer & Kiến trúc sư Hệ thống"
+      },
+      {
+        "title": "Eduzy – Nền tảng Microlearning AI",
+        "description": "Nền tảng microlearning được hỗ trợ bởi AI cung cấp lộ trình học tập cá nhân hóa, tích hợp thanh toán, phòng lab lập trình, bài học video, bài kiểm tra, thực thi code trực tiếp và phỏng vấn mô phỏng — được xây dựng để hỗ trợ giáo dục trực tuyến hiện đại thông qua trải nghiệm học tập ngắn gọn và thích ứng.",
+        "linkText": "Xem dự án",
+        "position": "Full Stack Developer & Kỹ sư Tích hợp AI"
+      }
+    ]
+  }
+}

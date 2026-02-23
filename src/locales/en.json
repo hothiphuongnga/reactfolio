@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "articles": "Articles",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "title": ".NET Software Engineer • C# Instructor • LMS & CRM SaaS Builder",
+    "description": "I'm a Software Engineer specializing in .NET and C# Web API with React and Next.js. I build LMS and CRM SaaS platforms, training center management systems (enrollment, tuition, learning materials), and scalable backend architectures. I'm passionate about Clean Architecture, Domain-Driven Design, Microservices, and delivering real-world solutions for education and business.",
+    "currentProjects": "Current Projects",
+    "allProjects": "All Projects",
+    "reachOut": "If you think I'd be a good fit for your team or project, don't hesitate to reach out.",
+    "email": "Email",
+    "work": "Work",
+    "workTitle": "Software Engineer",
+    "workDuration": "2022 - Present"
+  },
+  "about": {
+    "title": "I'm Ho Thi Phuong Nga — Software Engineer & C# Programming Lecturer.",
+    "description": "I have hands-on experience building LMS systems for training centers, including student enrollment, tuition management, learning materials, and internal CRM platforms. I've also worked on CRM SaaS products, server deployment, and CI/CD pipelines. My technical focus includes .NET, C#, React, Next.js, Clean Architecture, DDD, Microservices, Redis, Kafka, and CQRS. I enjoy sharing knowledge, mentoring students, and continuously improving system design and software quality.",
+    "socialMediaTitle": "Connect with me on social media"
+  },
+  "skills": {
+    "technicalTitle": "Technical Skills",
+    "practicesTitle": "Software Engineering Practices"
+  },
+  "socials": {
+    "followGitHub": "Follow on GitHub",
+    "followLinkedIn": "Follow on LinkedIn",
+    "followInstagram": "Follow on Instagram"
+  },
+  "projects": {
+    "title": "Projects I've Built — LMS, CRM, and Scalable SaaS Solutions",
+    "subtitle": "Comprehensive portfolio of LMS/CRM platforms, training center management systems, and scalable backend architectures.",
+    "viewProject": "View Project",
+    "position": "Position"
+  },
+  "contact": {
+    "title": "Let's Build Something Great Together.",
+    "subtitle": "I'm always open to new opportunities, collaborations, and interesting projects. Whether you have a question or just want to say hi, feel free to reach out!",
+    "email": "Email",
+    "lookingForward": "Thank you for your interest! I look forward to potentially working with you.",
+    "emailMe": "email me directly at",
+    "responseTime": "I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods.",
+    "socialConnect": "if you prefer to connect on social media, you can find me on"
+  },
+  "articles": {
+    "title": "Sharing practical engineering experience and modern backend architecture.",
+    "description": "A chronological collection of my thoughts on .NET development, system design, LMS/CRM SaaS, Clean Architecture, CQRS, Redis, Kafka, and lessons learned from real-world projects.",
+    "readArticle": "Read article",
+    "backToArticles": "Back to Articles"
+  },
+  "footer": {
+    "copyright": "All Rights Reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist.",
+    "goHome": "Go to Homepage"
+  },
+  "user": {
+    "name": "Ho Thi Phuong Nga",
+    "email": "pnga62782@gmail.com",
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "school": "FPT University",
+          "degree": "Practical Engineer",
+          "field": "Application Software",
+          "description": "Specialized training in .NET development, C# Web API, ReactJS, and modern web technologies.",
+          "startYear": 2021,
+          "endYear": 2023
+        },
+        {
+          "school": "University of Information Technology",
+          "degree": "Bachelor's Degree",
+          "field": "Information Technology",
+          "description": "Fundamental computer science principles and software engineering practices.",
+          "startYear": 2025,
+          "endYear": 2026
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "Bizzego - CRM SaaS Platform",
+        "description": "CRM SaaS platform for managing customers, sales pipelines, and team workflows in a centralized system, built with a scalable architecture to support growing businesses.",
+        "linkText": "View Project",
+        "position": "Backend Lead & Full Stack Developer"
+      },
+      {
+        "title": "CyberSoft - Education Management Platform (LMS + CRM)",
+        "description": "Comprehensive LMS and CRM platform built for training centers, covering enrollment, payments, sales operations, learning content, assessments, attendance, certification, and lecturer management. Designed to streamline the entire journey from lead acquisition to learning delivery.",
+        "linkText": "View Project",
+        "position": "Full Stack Developer & System Architect"
+      },
+      {
+        "title": "Eduzy – AI Microlearning Platform",
+        "description": "AI-powered microlearning platform delivering personalized study paths, integrated payments, coding labs, video lessons, quizzes, live code execution, and mock interviews — built to support modern online education through bite-sized, adaptive learning experiences.",
+        "linkText": "View Project",
+        "position": "Full Stack Developer & AI Integration Engineer"
+      }
+    ]
+  }
+}

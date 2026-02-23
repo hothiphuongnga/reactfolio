@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,6 +16,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import SkillsCompact from "../components/homepage/skillsCompact";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -23,6 +25,7 @@ import "./styles/homepage.css";
 import Education from "../components/homepage/education";
 
 const Homepage = () => {
+	const { t } = useTranslation();
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
@@ -91,11 +94,11 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{t('homepage.title')}
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{t('homepage.description')}
 								</div>
 							</div>
 
@@ -165,9 +168,10 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
+					<div className="homepage-skills">
+						<SkillsCompact skills={INFO.skills} />
+					</div>
+
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">

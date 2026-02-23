@@ -1,0 +1,41 @@
+@import "../../../data/styles.css";
+
+.language-switcher {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.lang-btn {
+	background: none;
+	border: none;
+	color: var(--secondary-color);
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 5px 10px;
+	transition: all 0.3s ease;
+	border-radius: 4px;
+}
+
+.lang-btn:hover {
+	color: var(--primary-color);
+	background: #f5f5f5;
+}
+
+.lang-btn.active {
+	color: var(--link-color);
+	font-weight: 700;
+}
+
+.lang-separator {
+	color: var(--tertiary-color);
+	font-size: 14px;
+}
+
+@media (max-width: 600px) {
+	.lang-btn {
+		font-size: 12px;
+		padding: 4px 8px;
+	}
+}

@@ -1,12 +1,15 @@
 import React from "react";
-import INFO from "../../data/user";
+import { useTranslation } from "react-i18next";
 
 import "./styles/education.css";
 
 const Education = () => {
+	const { t } = useTranslation();
+	const educationItems = t('user.education.items', { returnObjects: true });
+
 	return (
 		<React.Fragment>
-			{INFO.education.map((edu, index) => (
+			{educationItems.map((edu, index) => (
 				<div className="homepage-education" key={index}>
 					<div className="homepage-education-content">
 						<div className="homepage-education-school">
