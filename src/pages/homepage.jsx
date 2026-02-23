@@ -15,7 +15,6 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 import SkillsCompact from "../components/homepage/skillsCompact";
 
 import INFO from "../data/user";
