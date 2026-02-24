@@ -74,6 +74,10 @@ const INFO = {
 				name: "Redis",
 				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
 			},
+			{
+				name: "Blazor",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blazor/blazor-original.svg",
+			},
 		],
 		practices: [
 			{
