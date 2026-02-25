@@ -8,7 +8,7 @@ import "./styles/works.css";
 
 const Works = () => {
 	const { t } = useTranslation();
-	
+
 	return (
 		<div className="works">
 			<Card
@@ -22,14 +22,16 @@ const Works = () => {
 								alt="Cybersoft Academy"
 								className="work-image"
 							/>
-							<div className="work-title">Cybersoft Academy</div>
-							<div className="work-subtitle">
-								{t('homepage.workTitle')}
-							</div>
+							<div className="work-title">Cybersoft Academy <br />
+								{/* <div className="work-subtitle"> */}
+									{t('homepage.workTitle')}
+								{/* </div> */}
+								</div>
+
 							<div className="work-duration">{t('homepage.workDuration')}</div>
 						</div>
 
-						
+
 					</div>
 				}
 			/>

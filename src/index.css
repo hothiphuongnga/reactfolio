@@ -2,7 +2,7 @@
 @import "./data/styles.css";
 
 body {
-	margin: 0;
+	margin: 0 auto;
 	font-family: var(--primary-font);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

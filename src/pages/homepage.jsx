@@ -37,7 +37,7 @@ const Homepage = () => {
 		const handleScroll = () => {
 			let scroll = Math.round(window.pageYOffset, 2);
 
-			let newLogoSize = 80 - (scroll * 4) / 10;
+			let newLogoSize = 80 - (scroll * 8) / 10;
 
 			if (newLogoSize < oldLogoSize) {
 				if (newLogoSize > 40) {
