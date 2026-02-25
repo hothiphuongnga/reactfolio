@@ -36,7 +36,7 @@ const Contact = () => {
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
-							<Logo width={40} />
+							<Logo width={35} />
 						</div>
 					</div>
 

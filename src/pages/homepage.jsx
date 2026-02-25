@@ -40,7 +40,7 @@ const Homepage = () => {
 			let newLogoSize = 80 - (scroll * 8) / 10;
 
 			if (newLogoSize < oldLogoSize) {
-				if (newLogoSize > 40) {
+				if (newLogoSize > 30) {
 					setLogoSize(newLogoSize);
 					setOldLogoSize(newLogoSize);
 					setStayLogo(false);
