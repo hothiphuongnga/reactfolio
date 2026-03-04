@@ -15,7 +15,9 @@
     "email": "Email",
     "work": "Công việc",
     "workTitle": "Kỹ sư Phần mềm",
-    "workDuration": "2022 - Hiện tại"
+    "workDuration": "2022 - Hiện tại",
+    "instructorTitle": "Giảng viên lập trình C#",
+    "instructorDuration": "2024 - Hiện tại"
   },
   "about": {
     "title": "Tôi là Hồ Thị Phương Nga — Kỹ sư Phần mềm & Giảng viên lập trình C#.",
@@ -23,8 +25,14 @@
     "socialMediaTitle": "Kết nối với tôi trên mạng xã hội"
   },
   "skills": {
-    "technicalTitle": "Kỹ năng kỹ thuật",
-    "practicesTitle": "Phương pháp luận Kỹ thuật Phần mềm"
+    "backendTitle": "Backend",
+    "frontendTitle": "Frontend",
+    "databaseTitle": "Cơ sở dữ liệu & Cache",
+    "messagingTitle": "Messaging",
+    "devopsTitle": "DevOps",
+    "testingTitle": "Kiểm thử",
+    "cloudTitle": "Cloud",
+    "domainTitle": "Kinh nghiệm chuyên ngành"
   },
   "socials": {
     "followGitHub": "Theo dõi trên GitHub",

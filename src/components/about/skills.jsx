@@ -7,33 +7,23 @@ const Skills = ({ skills }) => {
 
 	return (
 		<div className="skills-wrapper">
-			<div className="skills-container">
-				<div className="skills-title">{t('skills.technicalTitle')}</div>
-				<div className="skills-grid">
-					{skills.technical.map((skill, index) => (
-						<div key={index} className="skill-item">
-							<div className="skill-icon">
-								<img src={skill.icon} alt={skill.name} />
+			{skills.map((category, catIndex) => (
+				<div key={catIndex} className="skills-container">
+					<div className="skills-title">
+						{t(`skills.${category.key}Title`)}
+					</div>
+					<div className="skills-grid">
+						{category.items.map((skill, index) => (
+							<div key={index} className="skill-item">
+								<div className="skill-icon">
+									<img src={skill.icon} alt={skill.name} />
+								</div>
+								<div className="skill-name">{skill.name}</div>
 							</div>
-							<div className="skill-name">{skill.name}</div>
-						</div>
-					))}
+						))}
+					</div>
 				</div>
-			</div>
-
-			<div className="skills-container">
-				<div className="skills-title">{t('skills.practicesTitle')}</div>
-				<div className="skills-grid practices-grid">
-					{skills.practices.map((skill, index) => (
-						<div key={index} className="skill-item practice-item">
-							<div className="skill-icon">
-								<img src={skill.icon} alt={skill.name} />
-							</div>
-							<div className="skill-name">{skill.name}</div>
-						</div>
-					))}
-				</div>
-			</div>
+			))}
 		</div>
 	);
 };

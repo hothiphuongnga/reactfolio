@@ -15,7 +15,9 @@
     "email": "Email",
     "work": "Work",
     "workTitle": "Software Engineer",
-    "workDuration": "2022 - Present"
+    "workDuration": "2022 - Present",
+    "instructorTitle": "C# Programming Instructor",
+    "instructorDuration": "2024 - Present"
   },
   "about": {
     "title": "I'm Ho Thi Phuong Nga — Software Engineer & C# Programming Lecturer.",
@@ -23,8 +25,14 @@
     "socialMediaTitle": "Connect with me on social media"
   },
   "skills": {
-    "technicalTitle": "Technical Skills",
-    "practicesTitle": "Software Engineering Practices"
+    "backendTitle": "Backend",
+    "frontendTitle": "Frontend",
+    "databaseTitle": "Database & Cache",
+    "messagingTitle": "Messaging",
+    "devopsTitle": "DevOps",
+    "testingTitle": "Testing",
+    "cloudTitle": "Cloud",
+    "domainTitle": "Domain Experience"
   },
   "socials": {
     "followGitHub": "Follow on GitHub",

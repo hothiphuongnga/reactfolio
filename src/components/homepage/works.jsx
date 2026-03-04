@@ -23,15 +23,22 @@ const Works = () => {
 								className="work-image"
 							/>
 							<div className="work-title">Cybersoft Academy <br />
-								{/* <div className="work-subtitle"> */}
-									{t('homepage.workTitle')}
-								{/* </div> */}
-								</div>
-
+								{t('homepage.workTitle')}
+							</div>
 							<div className="work-duration">{t('homepage.workDuration')}</div>
 						</div>
 
-
+						<div className="work">
+							<img
+								src="./logoCybersoft.png"
+								alt="Cybersoft Academy"
+								className="work-image"	
+							/>
+							<div className="work-title">Cybersoft Academy <br />
+								{t('homepage.instructorTitle')}
+							</div>
+							<div className="work-duration">{t('homepage.instructorDuration')}</div>
+						</div>
 					</div>
 				}
 			/>

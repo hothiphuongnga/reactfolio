@@ -74,7 +74,7 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="about-container">
+					<div className="skills-container">
 						<Skills skills={INFO.skills} />
 					</div>
 					
