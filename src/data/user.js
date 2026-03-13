@@ -3,6 +3,7 @@ const INFO = {
 		title: "Phuong Nga | Software Engineer Portfolio",
 		name: "Ho Thi Phuong Nga",
 		email: "pnga62782@gmail.com", // đổi nếu cần
+		phone: "0879172946",
 		logo: "../me.jpg",
 	},
 

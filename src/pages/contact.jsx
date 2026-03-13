@@ -51,6 +51,10 @@ const Contact = () => {
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
+							. {t('contact.phoneMe')} {" "}
+							<a href={`tel:${INFO.main.phone}`}>
+								{INFO.main.phone}
+							</a>
 							. {t('contact.responseTime')}
 							{" "}{t('contact.socialConnect')}{" "}
 							<a

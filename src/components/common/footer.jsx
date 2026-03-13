@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+import INFO from "../../data/user";
+
 import "./styles/footer.css";
 
 const Footer = () => {
@@ -32,7 +34,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2026 pnga62782@gmail.com. {t('footer.copyright')}.
+						© 2026 {INFO.main.email} | {INFO.main.phone}. {t('footer.copyright')}.
 					</div>
 				</div>
 			</div>
